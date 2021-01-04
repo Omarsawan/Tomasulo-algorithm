@@ -25,6 +25,7 @@ void addInstruction(Instructions i){
 }
 
 
+
 // just for testing purposes 
 public static void main(String[] args) {
 	Instructions i=new Instructions("ADD", "F6", "F8","F2",3);
