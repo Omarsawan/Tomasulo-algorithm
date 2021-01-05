@@ -3,14 +3,14 @@ import java.util.ArrayList;
 public class InstructionQueue {
 static class Instructions{
 String op; //operation
-String des; // destination register
-String j;
-String k;
+Integer des; // destination register
+Integer j;
+Integer k;
 int issue ; // issue number
 int execstart; // time exec starts at
 int execfin;// time exec finishes at
 int write; // the time in which the result is writter on the bus	
-public Instructions(String a, String b,String c,String d,int x) {
+public Instructions(String a, Integer b,Integer c,Integer d,int x) {
 	op=a;
 	des=b;
 	j=c;
@@ -27,7 +27,7 @@ void addInstruction(Instructions i){
 
 // just for testing purposes 
 public static void main(String[] args) {
-	Instructions i=new Instructions("ADD", "F6", "F8","F2",3);
+	Instructions i=new Instructions("ADD", 6, 8,2,3);
 	InstructionQueue q=new InstructionQueue();
 	q.addInstruction(i);
 }
