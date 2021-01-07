@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 
+import com.sun.xml.internal.ws.api.pipe.NextAction;
+
 
 public class Simulator {
 	static class Memory{
@@ -55,15 +57,30 @@ public class Simulator {
 		}
 		
 		//store res system
-		systems[3].execute();
 		
+		if(!wrote)
+			writingNow=systems[3].execute();
+		else {
+			systems[3].execute();
+		}
+		if(!wrote && writingNow!=null) {
+			wrote=true;
+			whoWrote=3;
+		}
 		
+		System.out.println(writingNow);
 		return writingNow;
 	}
-	
+	static void dependenciesReservationSystems(ReservationSystem []systems,String nxtTag) {
+		systems[0].handle(nxtTag);
+		systems[1].handle(nxtTag);
+		systems[2].handle(nxtTag);
+		systems[3].handle(nxtTag);
+	}
+		
 	public static void main(String[] args) {
-		int addCycles=3;
-		int mulCycles=5;
+		int addCycles=2;
+		int mulCycles=10;
 		int loadCycles=2;
 		int storeCycles=2;
 		
@@ -83,17 +100,25 @@ public class Simulator {
 			k=d;
 			issue=x;
 		 */
-		insQ.addInstruction(insQ.createInstruction("mul", 7, 5, 5, 5));
-		
+	  insQ.addInstruction(insQ.createInstruction("lw", 6, 32, 2));
+	insQ.addInstruction(insQ.createInstruction("lw", 2,44,3));
+		insQ.addInstruction(insQ.createInstruction("mul", 0,2,4));
+		insQ.addInstruction(insQ.createInstruction("add", 8,6,2));
+		insQ.addInstruction(insQ.createInstruction("mul", 10,0,6));
+		insQ.addInstruction(insQ.createInstruction("add", 6,8,2));
+	
 		record writingNxt=null;
 		int whoWriteNxt=-1;
 		String nxtTag=null;
 		
 		int curCycle=1;
-		
+		System.out.println(whoWriteNxt);
 		while(true) {
+			if(curCycle==5) {
+				mulCycles=40;
+			}
 			System.out.println("Current cycle is : "+(curCycle++));
-			
+			System.out.println(whoWriteNxt);
 			//removing from the reservation system
 			switch (whoWriteNxt) {
 				case 0: {
@@ -111,6 +136,11 @@ public class Simulator {
 					regFile.writingTag(nxtTag);
 					break;
 				}
+				case 3: {
+					storeResSystem.records[writingNxt.idx]=new record(writingNxt.idx);
+					regFile.writingTag(nxtTag);
+					break;
+				}
 			
 			}
 			
@@ -120,26 +150,6 @@ public class Simulator {
 			
 			
 			
-			System.out.println("add Reservation System : ");
-			addResSystem.print();
-			
-			System.out.println("___________________");
-			
-			System.out.println("mul Reservation System : ");
-			mulResSystem.print();
-			
-			System.out.println("___________________");
-			
-			System.out.println("load Reservation System : ");
-			loadResSystem.print();
-			
-			System.out.println("___________________");
-			
-			System.out.println("store Reservation System : ");
-			storeResSystem.print();
-			
-			System.out.println("___________________");
-			
 			String tag=null;
 			if(toWrite!=null) {
 				tag=toWrite.op+""+toWrite.idx;
@@ -147,6 +157,9 @@ public class Simulator {
 			
 			//writing
 			System.out.printf("Tag %s is writing\n",nxtTag);
+			if(nxtTag!=null) {
+			dependenciesReservationSystems(new ReservationSystem[] {addResSystem,mulResSystem,loadResSystem,storeResSystem},nxtTag);
+			}
 			
 			
 			
@@ -204,9 +217,32 @@ public class Simulator {
 				}
 			}
 			
+
+			System.out.println("add Reservation System : ");
+			addResSystem.print();
+			
+			System.out.println("___________________");
+			
+			System.out.println("mul Reservation System : ");
+			mulResSystem.print();
+			
+			System.out.println("___________________");
+			
+			System.out.println("load Reservation System : ");
+			loadResSystem.print();
+			
+			System.out.println("___________________");
+			
+			System.out.println("store Reservation System : ");
+			storeResSystem.print();
+			
+			System.out.println("___________________");
+			
+			
 			System.out.printf("Cycle %d Finished\n",curCycle-1);
 			System.out.println("__________________________________________________-");
 			
+
 			
 			boolean busy=addResSystem.existBusy() || mulResSystem.existBusy() || loadResSystem.existBusy() || storeResSystem.existBusy();
 			if(!busy && whoWriteNxt==-1) {

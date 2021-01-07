@@ -11,12 +11,11 @@ public class InstructionQueue {
 	int execstart; // time exec starts at
 	int execfin;// time exec finishes at
 	int write; // the time in which the result is writter on the bus	
-	public Instructions(String a, Integer b,Integer c,Integer d,int x) {
+	public Instructions(String a, Integer b,Integer c,Integer d) {
 		op=a;
 		des=b;
 		j=c;
 		k=d;
-		issue=x;
 	}
 	}
 	static ArrayList<Instructions> ints=new ArrayList<InstructionQueue.Instructions>();
@@ -24,8 +23,8 @@ public class InstructionQueue {
 	void addInstruction(Instructions i){
 		ints.add(i);
 	}
-	Instructions createInstruction(String a, Integer b,Integer c,Integer d,int x) {
-		return new Instructions(a, b, c, d, x);
+	Instructions createInstruction(String a, Integer b,Integer c,Integer d) {
+		return new Instructions(a, b, c, d);
 	}
 	
 	Instructions nxtInstruction() {
@@ -37,7 +36,7 @@ public class InstructionQueue {
 	
 	// just for testing purposes 
 	public static void main(String[] args) {
-		Instructions i=new Instructions("ADD", 6, 8,2,3);
+		Instructions i=new Instructions("ADD", 6, 8,2);
 		InstructionQueue q=new InstructionQueue();
 		q.addInstruction(i);
 	}
