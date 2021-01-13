@@ -82,6 +82,8 @@ public class Simulator {
 		pw=new PrintWriter(new File("Output"));
 		int addCycles=2;
 		int mulCycles=5;
+		int subCycles=2;
+		int divCycles=8;
 		int loadCycles=2;
 		int storeCycles=2;
 		
@@ -159,7 +161,7 @@ public class Simulator {
 			else
 				pw.printf("Tag %s is writing\n",nxtTag);
 			if(nxtTag!=null) {
-			dependenciesReservationSystems(new ReservationSystem[] {addResSystem,mulResSystem,loadResSystem,storeResSystem},nxtTag);
+				dependenciesReservationSystems(new ReservationSystem[] {addResSystem,mulResSystem,loadResSystem,storeResSystem},nxtTag);
 			}
 			
 			
@@ -183,7 +185,7 @@ public class Simulator {
 				switch (op) {
 					case "sub":{
 						if(addResSystem.existSpace()) {
-							addResSystem.insert(nxt, addCycles);
+							addResSystem.insert(nxt, subCycles);
 							insQ.fetched();
 							pw.printf("Instruction %s %d %d %d is issued\n",nxt.op,nxt.des,nxt.j,nxt.k);
 						}
@@ -207,7 +209,7 @@ public class Simulator {
 					}
 					case "div": {
 						if(mulResSystem.existSpace()) {
-							mulResSystem.insert(nxt, mulCycles);
+							mulResSystem.insert(nxt, divCycles);
 							insQ.fetched();
 							pw.printf("Instruction %s %d %d %d is issued\n",nxt.op,nxt.des,nxt.j,nxt.k);
 						}
