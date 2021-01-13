@@ -181,6 +181,14 @@ public class Simulator {
 			if(nxt!=null) {
 				String op=nxt.op;
 				switch (op) {
+					case "sub":{
+						if(addResSystem.existSpace()) {
+							addResSystem.insert(nxt, addCycles);
+							insQ.fetched();
+							pw.printf("Instruction %s %d %d %d is issued\n",nxt.op,nxt.des,nxt.j,nxt.k);
+						}
+						break;
+					}
 					case "add": {
 						if(addResSystem.existSpace()) {
 							addResSystem.insert(nxt, addCycles);
@@ -190,6 +198,14 @@ public class Simulator {
 						break;
 					}
 					case "mul": {
+						if(mulResSystem.existSpace()) {
+							mulResSystem.insert(nxt, mulCycles);
+							insQ.fetched();
+							pw.printf("Instruction %s %d %d %d is issued\n",nxt.op,nxt.des,nxt.j,nxt.k);
+						}
+						break;
+					}
+					case "div": {
 						if(mulResSystem.existSpace()) {
 							mulResSystem.insert(nxt, mulCycles);
 							insQ.fetched();
