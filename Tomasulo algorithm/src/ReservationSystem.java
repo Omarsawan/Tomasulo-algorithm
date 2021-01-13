@@ -1,19 +1,19 @@
+import java.io.PrintWriter;
 
 public class ReservationSystem {
 	record[]records;
 	RegisterFile regFile;
+	PrintWriter pw;
 	record execute() {
 		record ret=null;
 		for(int i=0;i<records.length;i++) {
 			if(records[i].busy) {
 				records[i].run();
 				if(ret==null && records[i].remCycles==0) {
-					System.out.println("lol");
 					ret=records[i];
 				}
 			}
 		}
-		System.out.println("ret "+ret);
 		return ret;
 	}
 	void handle(String tag) {
@@ -33,16 +33,16 @@ public class ReservationSystem {
 	}
 	void print() {
 		for(record r:records) {
-		System.out.println(r.Qj);
-			System.out.printf("Tag %s%d busy : %s , operation : %s , Vj : %d , Qj :%s , Vk : %d , Qk :%s , A : %d , Remaining cycles : %d\n",r.op,r.idx,r.busy,r.op,r.Vj,r.Qj,r.Vk,r.Qk,r.Address,r.remCycles);
+			pw.printf("Tag %s%d , busy : %s , operation : %s , Vj : %d , Vk :%d , Qj : %s , Qk :%s , A : %d , Remaining cycles : %d\n",r.op,r.idx,r.busy,r.op,r.Vj,r.Vk,r.Qj,r.Qk,r.Address,r.remCycles);
 		}
 	}
-	public ReservationSystem(int maxSize,RegisterFile reg) {
+	public ReservationSystem(int maxSize,RegisterFile reg,PrintWriter p) {
 		records=new record[maxSize];
 		for(int i=0;i<maxSize;i++) {
 			records[i]=new record(i);
 		}
 		regFile=reg;
+		pw=p;
 	}
 	boolean existSpace() {
 		boolean yes=false;

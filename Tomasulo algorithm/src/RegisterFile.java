@@ -1,11 +1,13 @@
+import java.io.PrintWriter;
 
 public class RegisterFile {
 	Register[] regs;
-
-	public RegisterFile(int size) {
+	PrintWriter pw;
+	public RegisterFile(int size,PrintWriter p) {
 		regs = new Register[size];
 		for (int i = 0; i < size; i++)
 			regs[i] = new Register(i, null);
+		pw=p;
 	}
 	void RegNoWait(int num) {
 		regs[num].Qi=null;
@@ -19,6 +21,13 @@ public class RegisterFile {
 				RegNoWait(i);
 			}
 		}
+	}
+	void print() {
+		pw.println("Register file :");
+		for(int i=0;i<regs.length;i++) {
+			pw.printf("Register F%d , Qi=%s , Content=%d\n",regs[i].num,regs[i].Qi,regs[i].content);
+		}
+		pw.println("_____________");
 	}
 	public static class Register {
 		int num;

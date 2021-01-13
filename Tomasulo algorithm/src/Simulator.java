@@ -1,6 +1,7 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
-
-import com.sun.xml.internal.ws.api.pipe.NextAction;
 
 
 public class Simulator {
@@ -68,7 +69,6 @@ public class Simulator {
 			whoWrote=3;
 		}
 		
-		System.out.println(writingNow);
 		return writingNow;
 	}
 	static void dependenciesReservationSystems(ReservationSystem []systems,String nxtTag) {
@@ -77,21 +77,22 @@ public class Simulator {
 		systems[2].handle(nxtTag);
 		systems[3].handle(nxtTag);
 	}
-		
-	public static void main(String[] args) {
+	static PrintWriter pw;
+	public static void main(String[] args) throws FileNotFoundException {
+		pw=new PrintWriter(new File("Output"));
 		int addCycles=2;
-		int mulCycles=10;
+		int mulCycles=5;
 		int loadCycles=2;
 		int storeCycles=2;
 		
 		
 		
 		InstructionQueue insQ=new InstructionQueue();
-		RegisterFile regFile=new RegisterFile(32);
-		ReservationSystem addResSystem=new ReservationSystem(5,regFile);
-		ReservationSystem mulResSystem=new ReservationSystem(5,regFile);
-		ReservationSystem loadResSystem=new ReservationSystem(5,regFile);
-		ReservationSystem storeResSystem=new ReservationSystem(5,regFile);
+		RegisterFile regFile=new RegisterFile(32,pw);
+		ReservationSystem addResSystem=new ReservationSystem(5,regFile,pw);
+		ReservationSystem mulResSystem=new ReservationSystem(5,regFile,pw);
+		ReservationSystem loadResSystem=new ReservationSystem(5,regFile,pw);
+		ReservationSystem storeResSystem=new ReservationSystem(5,regFile,pw);
 		//take input
 		/*
 		 * op=a;
@@ -100,6 +101,7 @@ public class Simulator {
 			k=d;
 			issue=x;
 		 */
+		insQ.addInstruction(insQ.createInstruction("add", 9,9,9));
 	  insQ.addInstruction(insQ.createInstruction("lw", 6, 32, 2));
 	insQ.addInstruction(insQ.createInstruction("lw", 2,44,3));
 		insQ.addInstruction(insQ.createInstruction("mul", 0,2,4));
@@ -112,13 +114,8 @@ public class Simulator {
 		String nxtTag=null;
 		
 		int curCycle=1;
-		System.out.println(whoWriteNxt);
 		while(true) {
-			if(curCycle==5) {
-				mulCycles=40;
-			}
-			System.out.println("Current cycle is : "+(curCycle++));
-			System.out.println(whoWriteNxt);
+			pw.println("Current cycle is : "+(curCycle++));
 			//removing from the reservation system
 			switch (whoWriteNxt) {
 				case 0: {
@@ -156,7 +153,11 @@ public class Simulator {
 			}
 			
 			//writing
-			System.out.printf("Tag %s is writing\n",nxtTag);
+			if(nxtTag==null) {
+				pw.println("No Instruction is writing in this Cycle");
+			}
+			else
+				pw.printf("Tag %s is writing\n",nxtTag);
 			if(nxtTag!=null) {
 			dependenciesReservationSystems(new ReservationSystem[] {addResSystem,mulResSystem,loadResSystem,storeResSystem},nxtTag);
 			}
@@ -184,7 +185,7 @@ public class Simulator {
 						if(addResSystem.existSpace()) {
 							addResSystem.insert(nxt, addCycles);
 							insQ.fetched();
-							System.out.printf("Instruction %s %d %d %d is fetched\n",nxt.op,nxt.des,nxt.j,nxt.k);
+							pw.printf("Instruction %s %d %d %d is issued\n",nxt.op,nxt.des,nxt.j,nxt.k);
 						}
 						break;
 					}
@@ -192,7 +193,7 @@ public class Simulator {
 						if(mulResSystem.existSpace()) {
 							mulResSystem.insert(nxt, mulCycles);
 							insQ.fetched();
-							System.out.printf("Instruction %s %d %d %d is fetched\n",nxt.op,nxt.des,nxt.j,nxt.k);
+							pw.printf("Instruction %s %d %d %d is issued\n",nxt.op,nxt.des,nxt.j,nxt.k);
 						}
 						break;
 					}
@@ -200,7 +201,7 @@ public class Simulator {
 						if(loadResSystem.existSpace()) {
 							loadResSystem.insert(nxt, loadCycles);
 							insQ.fetched();
-							System.out.printf("Instruction %s %d %d %d is fetched/n",nxt.op,nxt.des,nxt.j,nxt.k);
+							pw.printf("Instruction %s %d %d %d is issued\n",nxt.op,nxt.des,nxt.j,nxt.k);
 						}
 						break;
 					}
@@ -208,7 +209,7 @@ public class Simulator {
 						if(storeResSystem.existSpace()) {
 							storeResSystem.insert(nxt, storeCycles);
 							insQ.fetched();
-							System.out.printf("Instruction %s %d %d %d is fetched\n",nxt.op,nxt.des,nxt.j,nxt.k);
+							pw.printf("Instruction %s %d %d %d is issued\n",nxt.op,nxt.des,nxt.j,nxt.k);
 						}
 						break;
 					}
@@ -218,35 +219,36 @@ public class Simulator {
 			}
 			
 
-			System.out.println("add Reservation System : ");
+			pw.println("add Reservation System : ");
 			addResSystem.print();
 			
-			System.out.println("___________________");
+			pw.println("___________________");
 			
-			System.out.println("mul Reservation System : ");
+			pw.println("mul Reservation System : ");
 			mulResSystem.print();
 			
-			System.out.println("___________________");
+			pw.println("___________________");
 			
-			System.out.println("load Reservation System : ");
+			pw.println("load Reservation System : ");
 			loadResSystem.print();
 			
-			System.out.println("___________________");
+			pw.println("___________________");
 			
-			System.out.println("store Reservation System : ");
+			pw.println("store Reservation System : ");
 			storeResSystem.print();
 			
-			System.out.println("___________________");
+			pw.println("___________________");
 			
+			regFile.print();
 			
-			System.out.printf("Cycle %d Finished\n",curCycle-1);
-			System.out.println("__________________________________________________-");
+			pw.printf("Cycle %d Finished\n",curCycle-1);
+			pw.println("__________________________________________________-");
 			
 
 			
 			boolean busy=addResSystem.existBusy() || mulResSystem.existBusy() || loadResSystem.existBusy() || storeResSystem.existBusy();
 			if(!busy && whoWriteNxt==-1) {
-				System.out.println("finished !!!!!!");
+				pw.println("finished !!!!!!");
 				break;
 			}
 		}

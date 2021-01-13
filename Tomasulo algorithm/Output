@@ -1,0 +1,1076 @@
+Current cycle is : 1
+No Instruction is writing in this Cycle
+Instruction add 9 9 9 is issued
+add Reservation System : 
+Tag add0 , busy : true , operation : add , Vj : 9 , Vk :9 , Qj : null , Qk :null , A : null , Remaining cycles : 2
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+mul Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+load Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+store Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+Register file :
+Register F0 , Qi=null , Content=null
+Register F1 , Qi=null , Content=null
+Register F2 , Qi=null , Content=null
+Register F3 , Qi=null , Content=null
+Register F4 , Qi=null , Content=null
+Register F5 , Qi=null , Content=null
+Register F6 , Qi=null , Content=null
+Register F7 , Qi=null , Content=null
+Register F8 , Qi=null , Content=null
+Register F9 , Qi=add0 , Content=null
+Register F10 , Qi=null , Content=null
+Register F11 , Qi=null , Content=null
+Register F12 , Qi=null , Content=null
+Register F13 , Qi=null , Content=null
+Register F14 , Qi=null , Content=null
+Register F15 , Qi=null , Content=null
+Register F16 , Qi=null , Content=null
+Register F17 , Qi=null , Content=null
+Register F18 , Qi=null , Content=null
+Register F19 , Qi=null , Content=null
+Register F20 , Qi=null , Content=null
+Register F21 , Qi=null , Content=null
+Register F22 , Qi=null , Content=null
+Register F23 , Qi=null , Content=null
+Register F24 , Qi=null , Content=null
+Register F25 , Qi=null , Content=null
+Register F26 , Qi=null , Content=null
+Register F27 , Qi=null , Content=null
+Register F28 , Qi=null , Content=null
+Register F29 , Qi=null , Content=null
+Register F30 , Qi=null , Content=null
+Register F31 , Qi=null , Content=null
+_____________
+Cycle 1 Finished
+__________________________________________________-
+Current cycle is : 2
+No Instruction is writing in this Cycle
+Instruction lw 6 32 2 is issued
+add Reservation System : 
+Tag add0 , busy : true , operation : add , Vj : 9 , Vk :9 , Qj : null , Qk :null , A : null , Remaining cycles : 1
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+mul Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+load Reservation System : 
+Tag lw0 , busy : true , operation : lw , Vj : 32 , Vk :2 , Qj : null , Qk :null , A : 32 , Remaining cycles : 2
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+store Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+Register file :
+Register F0 , Qi=null , Content=null
+Register F1 , Qi=null , Content=null
+Register F2 , Qi=null , Content=null
+Register F3 , Qi=null , Content=null
+Register F4 , Qi=null , Content=null
+Register F5 , Qi=null , Content=null
+Register F6 , Qi=lw0 , Content=null
+Register F7 , Qi=null , Content=null
+Register F8 , Qi=null , Content=null
+Register F9 , Qi=add0 , Content=null
+Register F10 , Qi=null , Content=null
+Register F11 , Qi=null , Content=null
+Register F12 , Qi=null , Content=null
+Register F13 , Qi=null , Content=null
+Register F14 , Qi=null , Content=null
+Register F15 , Qi=null , Content=null
+Register F16 , Qi=null , Content=null
+Register F17 , Qi=null , Content=null
+Register F18 , Qi=null , Content=null
+Register F19 , Qi=null , Content=null
+Register F20 , Qi=null , Content=null
+Register F21 , Qi=null , Content=null
+Register F22 , Qi=null , Content=null
+Register F23 , Qi=null , Content=null
+Register F24 , Qi=null , Content=null
+Register F25 , Qi=null , Content=null
+Register F26 , Qi=null , Content=null
+Register F27 , Qi=null , Content=null
+Register F28 , Qi=null , Content=null
+Register F29 , Qi=null , Content=null
+Register F30 , Qi=null , Content=null
+Register F31 , Qi=null , Content=null
+_____________
+Cycle 2 Finished
+__________________________________________________-
+Current cycle is : 3
+No Instruction is writing in this Cycle
+Instruction lw 2 44 3 is issued
+add Reservation System : 
+Tag add0 , busy : true , operation : add , Vj : 9 , Vk :9 , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+mul Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+load Reservation System : 
+Tag lw0 , busy : true , operation : lw , Vj : 32 , Vk :2 , Qj : null , Qk :null , A : 32 , Remaining cycles : 1
+Tag lw1 , busy : true , operation : lw , Vj : 44 , Vk :3 , Qj : null , Qk :null , A : 44 , Remaining cycles : 2
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+store Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+Register file :
+Register F0 , Qi=null , Content=null
+Register F1 , Qi=null , Content=null
+Register F2 , Qi=lw1 , Content=null
+Register F3 , Qi=null , Content=null
+Register F4 , Qi=null , Content=null
+Register F5 , Qi=null , Content=null
+Register F6 , Qi=lw0 , Content=null
+Register F7 , Qi=null , Content=null
+Register F8 , Qi=null , Content=null
+Register F9 , Qi=add0 , Content=null
+Register F10 , Qi=null , Content=null
+Register F11 , Qi=null , Content=null
+Register F12 , Qi=null , Content=null
+Register F13 , Qi=null , Content=null
+Register F14 , Qi=null , Content=null
+Register F15 , Qi=null , Content=null
+Register F16 , Qi=null , Content=null
+Register F17 , Qi=null , Content=null
+Register F18 , Qi=null , Content=null
+Register F19 , Qi=null , Content=null
+Register F20 , Qi=null , Content=null
+Register F21 , Qi=null , Content=null
+Register F22 , Qi=null , Content=null
+Register F23 , Qi=null , Content=null
+Register F24 , Qi=null , Content=null
+Register F25 , Qi=null , Content=null
+Register F26 , Qi=null , Content=null
+Register F27 , Qi=null , Content=null
+Register F28 , Qi=null , Content=null
+Register F29 , Qi=null , Content=null
+Register F30 , Qi=null , Content=null
+Register F31 , Qi=null , Content=null
+_____________
+Cycle 3 Finished
+__________________________________________________-
+Current cycle is : 4
+Tag add0 is writing
+Instruction mul 0 2 4 is issued
+add Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+mul Reservation System : 
+Tag mul0 , busy : true , operation : mul , Vj : null , Vk :4 , Qj : lw1 , Qk :null , A : null , Remaining cycles : 5
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+load Reservation System : 
+Tag lw0 , busy : true , operation : lw , Vj : 32 , Vk :2 , Qj : null , Qk :null , A : 32 , Remaining cycles : 0
+Tag lw1 , busy : true , operation : lw , Vj : 44 , Vk :3 , Qj : null , Qk :null , A : 44 , Remaining cycles : 1
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+store Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+Register file :
+Register F0 , Qi=mul0 , Content=null
+Register F1 , Qi=null , Content=null
+Register F2 , Qi=lw1 , Content=null
+Register F3 , Qi=null , Content=null
+Register F4 , Qi=null , Content=null
+Register F5 , Qi=null , Content=null
+Register F6 , Qi=lw0 , Content=null
+Register F7 , Qi=null , Content=null
+Register F8 , Qi=null , Content=null
+Register F9 , Qi=null , Content=null
+Register F10 , Qi=null , Content=null
+Register F11 , Qi=null , Content=null
+Register F12 , Qi=null , Content=null
+Register F13 , Qi=null , Content=null
+Register F14 , Qi=null , Content=null
+Register F15 , Qi=null , Content=null
+Register F16 , Qi=null , Content=null
+Register F17 , Qi=null , Content=null
+Register F18 , Qi=null , Content=null
+Register F19 , Qi=null , Content=null
+Register F20 , Qi=null , Content=null
+Register F21 , Qi=null , Content=null
+Register F22 , Qi=null , Content=null
+Register F23 , Qi=null , Content=null
+Register F24 , Qi=null , Content=null
+Register F25 , Qi=null , Content=null
+Register F26 , Qi=null , Content=null
+Register F27 , Qi=null , Content=null
+Register F28 , Qi=null , Content=null
+Register F29 , Qi=null , Content=null
+Register F30 , Qi=null , Content=null
+Register F31 , Qi=null , Content=null
+_____________
+Cycle 4 Finished
+__________________________________________________-
+Current cycle is : 5
+Tag lw0 is writing
+Instruction add 8 6 2 is issued
+add Reservation System : 
+Tag add0 , busy : true , operation : add , Vj : 6 , Vk :null , Qj : null , Qk :lw1 , A : null , Remaining cycles : 2
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+mul Reservation System : 
+Tag mul0 , busy : true , operation : mul , Vj : null , Vk :4 , Qj : lw1 , Qk :null , A : null , Remaining cycles : 5
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+load Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag lw1 , busy : true , operation : lw , Vj : 44 , Vk :3 , Qj : null , Qk :null , A : 44 , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+store Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+Register file :
+Register F0 , Qi=mul0 , Content=null
+Register F1 , Qi=null , Content=null
+Register F2 , Qi=lw1 , Content=null
+Register F3 , Qi=null , Content=null
+Register F4 , Qi=null , Content=null
+Register F5 , Qi=null , Content=null
+Register F6 , Qi=null , Content=null
+Register F7 , Qi=null , Content=null
+Register F8 , Qi=add0 , Content=null
+Register F9 , Qi=null , Content=null
+Register F10 , Qi=null , Content=null
+Register F11 , Qi=null , Content=null
+Register F12 , Qi=null , Content=null
+Register F13 , Qi=null , Content=null
+Register F14 , Qi=null , Content=null
+Register F15 , Qi=null , Content=null
+Register F16 , Qi=null , Content=null
+Register F17 , Qi=null , Content=null
+Register F18 , Qi=null , Content=null
+Register F19 , Qi=null , Content=null
+Register F20 , Qi=null , Content=null
+Register F21 , Qi=null , Content=null
+Register F22 , Qi=null , Content=null
+Register F23 , Qi=null , Content=null
+Register F24 , Qi=null , Content=null
+Register F25 , Qi=null , Content=null
+Register F26 , Qi=null , Content=null
+Register F27 , Qi=null , Content=null
+Register F28 , Qi=null , Content=null
+Register F29 , Qi=null , Content=null
+Register F30 , Qi=null , Content=null
+Register F31 , Qi=null , Content=null
+_____________
+Cycle 5 Finished
+__________________________________________________-
+Current cycle is : 6
+Tag lw1 is writing
+Instruction mul 10 0 6 is issued
+add Reservation System : 
+Tag add0 , busy : true , operation : add , Vj : 6 , Vk :15 , Qj : null , Qk :null , A : null , Remaining cycles : 2
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+mul Reservation System : 
+Tag mul0 , busy : true , operation : mul , Vj : 15 , Vk :4 , Qj : null , Qk :null , A : null , Remaining cycles : 5
+Tag mul1 , busy : true , operation : mul , Vj : null , Vk :6 , Qj : mul0 , Qk :null , A : null , Remaining cycles : 5
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+load Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+store Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+Register file :
+Register F0 , Qi=mul0 , Content=null
+Register F1 , Qi=null , Content=null
+Register F2 , Qi=null , Content=null
+Register F3 , Qi=null , Content=null
+Register F4 , Qi=null , Content=null
+Register F5 , Qi=null , Content=null
+Register F6 , Qi=null , Content=null
+Register F7 , Qi=null , Content=null
+Register F8 , Qi=add0 , Content=null
+Register F9 , Qi=null , Content=null
+Register F10 , Qi=mul1 , Content=null
+Register F11 , Qi=null , Content=null
+Register F12 , Qi=null , Content=null
+Register F13 , Qi=null , Content=null
+Register F14 , Qi=null , Content=null
+Register F15 , Qi=null , Content=null
+Register F16 , Qi=null , Content=null
+Register F17 , Qi=null , Content=null
+Register F18 , Qi=null , Content=null
+Register F19 , Qi=null , Content=null
+Register F20 , Qi=null , Content=null
+Register F21 , Qi=null , Content=null
+Register F22 , Qi=null , Content=null
+Register F23 , Qi=null , Content=null
+Register F24 , Qi=null , Content=null
+Register F25 , Qi=null , Content=null
+Register F26 , Qi=null , Content=null
+Register F27 , Qi=null , Content=null
+Register F28 , Qi=null , Content=null
+Register F29 , Qi=null , Content=null
+Register F30 , Qi=null , Content=null
+Register F31 , Qi=null , Content=null
+_____________
+Cycle 6 Finished
+__________________________________________________-
+Current cycle is : 7
+No Instruction is writing in this Cycle
+Instruction add 6 8 2 is issued
+add Reservation System : 
+Tag add0 , busy : true , operation : add , Vj : 6 , Vk :15 , Qj : null , Qk :null , A : null , Remaining cycles : 1
+Tag add1 , busy : true , operation : add , Vj : null , Vk :2 , Qj : add0 , Qk :null , A : null , Remaining cycles : 2
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+mul Reservation System : 
+Tag mul0 , busy : true , operation : mul , Vj : 15 , Vk :4 , Qj : null , Qk :null , A : null , Remaining cycles : 4
+Tag mul1 , busy : true , operation : mul , Vj : null , Vk :6 , Qj : mul0 , Qk :null , A : null , Remaining cycles : 5
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+load Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+store Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+Register file :
+Register F0 , Qi=mul0 , Content=null
+Register F1 , Qi=null , Content=null
+Register F2 , Qi=null , Content=null
+Register F3 , Qi=null , Content=null
+Register F4 , Qi=null , Content=null
+Register F5 , Qi=null , Content=null
+Register F6 , Qi=add1 , Content=null
+Register F7 , Qi=null , Content=null
+Register F8 , Qi=add0 , Content=null
+Register F9 , Qi=null , Content=null
+Register F10 , Qi=mul1 , Content=null
+Register F11 , Qi=null , Content=null
+Register F12 , Qi=null , Content=null
+Register F13 , Qi=null , Content=null
+Register F14 , Qi=null , Content=null
+Register F15 , Qi=null , Content=null
+Register F16 , Qi=null , Content=null
+Register F17 , Qi=null , Content=null
+Register F18 , Qi=null , Content=null
+Register F19 , Qi=null , Content=null
+Register F20 , Qi=null , Content=null
+Register F21 , Qi=null , Content=null
+Register F22 , Qi=null , Content=null
+Register F23 , Qi=null , Content=null
+Register F24 , Qi=null , Content=null
+Register F25 , Qi=null , Content=null
+Register F26 , Qi=null , Content=null
+Register F27 , Qi=null , Content=null
+Register F28 , Qi=null , Content=null
+Register F29 , Qi=null , Content=null
+Register F30 , Qi=null , Content=null
+Register F31 , Qi=null , Content=null
+_____________
+Cycle 7 Finished
+__________________________________________________-
+Current cycle is : 8
+No Instruction is writing in this Cycle
+add Reservation System : 
+Tag add0 , busy : true , operation : add , Vj : 6 , Vk :15 , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag add1 , busy : true , operation : add , Vj : null , Vk :2 , Qj : add0 , Qk :null , A : null , Remaining cycles : 2
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+mul Reservation System : 
+Tag mul0 , busy : true , operation : mul , Vj : 15 , Vk :4 , Qj : null , Qk :null , A : null , Remaining cycles : 3
+Tag mul1 , busy : true , operation : mul , Vj : null , Vk :6 , Qj : mul0 , Qk :null , A : null , Remaining cycles : 5
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+load Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+store Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+Register file :
+Register F0 , Qi=mul0 , Content=null
+Register F1 , Qi=null , Content=null
+Register F2 , Qi=null , Content=null
+Register F3 , Qi=null , Content=null
+Register F4 , Qi=null , Content=null
+Register F5 , Qi=null , Content=null
+Register F6 , Qi=add1 , Content=null
+Register F7 , Qi=null , Content=null
+Register F8 , Qi=add0 , Content=null
+Register F9 , Qi=null , Content=null
+Register F10 , Qi=mul1 , Content=null
+Register F11 , Qi=null , Content=null
+Register F12 , Qi=null , Content=null
+Register F13 , Qi=null , Content=null
+Register F14 , Qi=null , Content=null
+Register F15 , Qi=null , Content=null
+Register F16 , Qi=null , Content=null
+Register F17 , Qi=null , Content=null
+Register F18 , Qi=null , Content=null
+Register F19 , Qi=null , Content=null
+Register F20 , Qi=null , Content=null
+Register F21 , Qi=null , Content=null
+Register F22 , Qi=null , Content=null
+Register F23 , Qi=null , Content=null
+Register F24 , Qi=null , Content=null
+Register F25 , Qi=null , Content=null
+Register F26 , Qi=null , Content=null
+Register F27 , Qi=null , Content=null
+Register F28 , Qi=null , Content=null
+Register F29 , Qi=null , Content=null
+Register F30 , Qi=null , Content=null
+Register F31 , Qi=null , Content=null
+_____________
+Cycle 8 Finished
+__________________________________________________-
+Current cycle is : 9
+Tag add0 is writing
+add Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag add1 , busy : true , operation : add , Vj : 15 , Vk :2 , Qj : null , Qk :null , A : null , Remaining cycles : 2
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+mul Reservation System : 
+Tag mul0 , busy : true , operation : mul , Vj : 15 , Vk :4 , Qj : null , Qk :null , A : null , Remaining cycles : 2
+Tag mul1 , busy : true , operation : mul , Vj : null , Vk :6 , Qj : mul0 , Qk :null , A : null , Remaining cycles : 5
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+load Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+store Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+Register file :
+Register F0 , Qi=mul0 , Content=null
+Register F1 , Qi=null , Content=null
+Register F2 , Qi=null , Content=null
+Register F3 , Qi=null , Content=null
+Register F4 , Qi=null , Content=null
+Register F5 , Qi=null , Content=null
+Register F6 , Qi=add1 , Content=null
+Register F7 , Qi=null , Content=null
+Register F8 , Qi=null , Content=null
+Register F9 , Qi=null , Content=null
+Register F10 , Qi=mul1 , Content=null
+Register F11 , Qi=null , Content=null
+Register F12 , Qi=null , Content=null
+Register F13 , Qi=null , Content=null
+Register F14 , Qi=null , Content=null
+Register F15 , Qi=null , Content=null
+Register F16 , Qi=null , Content=null
+Register F17 , Qi=null , Content=null
+Register F18 , Qi=null , Content=null
+Register F19 , Qi=null , Content=null
+Register F20 , Qi=null , Content=null
+Register F21 , Qi=null , Content=null
+Register F22 , Qi=null , Content=null
+Register F23 , Qi=null , Content=null
+Register F24 , Qi=null , Content=null
+Register F25 , Qi=null , Content=null
+Register F26 , Qi=null , Content=null
+Register F27 , Qi=null , Content=null
+Register F28 , Qi=null , Content=null
+Register F29 , Qi=null , Content=null
+Register F30 , Qi=null , Content=null
+Register F31 , Qi=null , Content=null
+_____________
+Cycle 9 Finished
+__________________________________________________-
+Current cycle is : 10
+No Instruction is writing in this Cycle
+add Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag add1 , busy : true , operation : add , Vj : 15 , Vk :2 , Qj : null , Qk :null , A : null , Remaining cycles : 1
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+mul Reservation System : 
+Tag mul0 , busy : true , operation : mul , Vj : 15 , Vk :4 , Qj : null , Qk :null , A : null , Remaining cycles : 1
+Tag mul1 , busy : true , operation : mul , Vj : null , Vk :6 , Qj : mul0 , Qk :null , A : null , Remaining cycles : 5
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+load Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+store Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+Register file :
+Register F0 , Qi=mul0 , Content=null
+Register F1 , Qi=null , Content=null
+Register F2 , Qi=null , Content=null
+Register F3 , Qi=null , Content=null
+Register F4 , Qi=null , Content=null
+Register F5 , Qi=null , Content=null
+Register F6 , Qi=add1 , Content=null
+Register F7 , Qi=null , Content=null
+Register F8 , Qi=null , Content=null
+Register F9 , Qi=null , Content=null
+Register F10 , Qi=mul1 , Content=null
+Register F11 , Qi=null , Content=null
+Register F12 , Qi=null , Content=null
+Register F13 , Qi=null , Content=null
+Register F14 , Qi=null , Content=null
+Register F15 , Qi=null , Content=null
+Register F16 , Qi=null , Content=null
+Register F17 , Qi=null , Content=null
+Register F18 , Qi=null , Content=null
+Register F19 , Qi=null , Content=null
+Register F20 , Qi=null , Content=null
+Register F21 , Qi=null , Content=null
+Register F22 , Qi=null , Content=null
+Register F23 , Qi=null , Content=null
+Register F24 , Qi=null , Content=null
+Register F25 , Qi=null , Content=null
+Register F26 , Qi=null , Content=null
+Register F27 , Qi=null , Content=null
+Register F28 , Qi=null , Content=null
+Register F29 , Qi=null , Content=null
+Register F30 , Qi=null , Content=null
+Register F31 , Qi=null , Content=null
+_____________
+Cycle 10 Finished
+__________________________________________________-
+Current cycle is : 11
+No Instruction is writing in this Cycle
+add Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag add1 , busy : true , operation : add , Vj : 15 , Vk :2 , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+mul Reservation System : 
+Tag mul0 , busy : true , operation : mul , Vj : 15 , Vk :4 , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag mul1 , busy : true , operation : mul , Vj : null , Vk :6 , Qj : mul0 , Qk :null , A : null , Remaining cycles : 5
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+load Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+store Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+Register file :
+Register F0 , Qi=mul0 , Content=null
+Register F1 , Qi=null , Content=null
+Register F2 , Qi=null , Content=null
+Register F3 , Qi=null , Content=null
+Register F4 , Qi=null , Content=null
+Register F5 , Qi=null , Content=null
+Register F6 , Qi=add1 , Content=null
+Register F7 , Qi=null , Content=null
+Register F8 , Qi=null , Content=null
+Register F9 , Qi=null , Content=null
+Register F10 , Qi=mul1 , Content=null
+Register F11 , Qi=null , Content=null
+Register F12 , Qi=null , Content=null
+Register F13 , Qi=null , Content=null
+Register F14 , Qi=null , Content=null
+Register F15 , Qi=null , Content=null
+Register F16 , Qi=null , Content=null
+Register F17 , Qi=null , Content=null
+Register F18 , Qi=null , Content=null
+Register F19 , Qi=null , Content=null
+Register F20 , Qi=null , Content=null
+Register F21 , Qi=null , Content=null
+Register F22 , Qi=null , Content=null
+Register F23 , Qi=null , Content=null
+Register F24 , Qi=null , Content=null
+Register F25 , Qi=null , Content=null
+Register F26 , Qi=null , Content=null
+Register F27 , Qi=null , Content=null
+Register F28 , Qi=null , Content=null
+Register F29 , Qi=null , Content=null
+Register F30 , Qi=null , Content=null
+Register F31 , Qi=null , Content=null
+_____________
+Cycle 11 Finished
+__________________________________________________-
+Current cycle is : 12
+Tag add1 is writing
+add Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+mul Reservation System : 
+Tag mul0 , busy : true , operation : mul , Vj : 15 , Vk :4 , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag mul1 , busy : true , operation : mul , Vj : null , Vk :6 , Qj : mul0 , Qk :null , A : null , Remaining cycles : 5
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+load Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+store Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+Register file :
+Register F0 , Qi=mul0 , Content=null
+Register F1 , Qi=null , Content=null
+Register F2 , Qi=null , Content=null
+Register F3 , Qi=null , Content=null
+Register F4 , Qi=null , Content=null
+Register F5 , Qi=null , Content=null
+Register F6 , Qi=null , Content=null
+Register F7 , Qi=null , Content=null
+Register F8 , Qi=null , Content=null
+Register F9 , Qi=null , Content=null
+Register F10 , Qi=mul1 , Content=null
+Register F11 , Qi=null , Content=null
+Register F12 , Qi=null , Content=null
+Register F13 , Qi=null , Content=null
+Register F14 , Qi=null , Content=null
+Register F15 , Qi=null , Content=null
+Register F16 , Qi=null , Content=null
+Register F17 , Qi=null , Content=null
+Register F18 , Qi=null , Content=null
+Register F19 , Qi=null , Content=null
+Register F20 , Qi=null , Content=null
+Register F21 , Qi=null , Content=null
+Register F22 , Qi=null , Content=null
+Register F23 , Qi=null , Content=null
+Register F24 , Qi=null , Content=null
+Register F25 , Qi=null , Content=null
+Register F26 , Qi=null , Content=null
+Register F27 , Qi=null , Content=null
+Register F28 , Qi=null , Content=null
+Register F29 , Qi=null , Content=null
+Register F30 , Qi=null , Content=null
+Register F31 , Qi=null , Content=null
+_____________
+Cycle 12 Finished
+__________________________________________________-
+Current cycle is : 13
+Tag mul0 is writing
+add Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+mul Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag mul1 , busy : true , operation : mul , Vj : 15 , Vk :6 , Qj : null , Qk :null , A : null , Remaining cycles : 5
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+load Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+store Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+Register file :
+Register F0 , Qi=null , Content=null
+Register F1 , Qi=null , Content=null
+Register F2 , Qi=null , Content=null
+Register F3 , Qi=null , Content=null
+Register F4 , Qi=null , Content=null
+Register F5 , Qi=null , Content=null
+Register F6 , Qi=null , Content=null
+Register F7 , Qi=null , Content=null
+Register F8 , Qi=null , Content=null
+Register F9 , Qi=null , Content=null
+Register F10 , Qi=mul1 , Content=null
+Register F11 , Qi=null , Content=null
+Register F12 , Qi=null , Content=null
+Register F13 , Qi=null , Content=null
+Register F14 , Qi=null , Content=null
+Register F15 , Qi=null , Content=null
+Register F16 , Qi=null , Content=null
+Register F17 , Qi=null , Content=null
+Register F18 , Qi=null , Content=null
+Register F19 , Qi=null , Content=null
+Register F20 , Qi=null , Content=null
+Register F21 , Qi=null , Content=null
+Register F22 , Qi=null , Content=null
+Register F23 , Qi=null , Content=null
+Register F24 , Qi=null , Content=null
+Register F25 , Qi=null , Content=null
+Register F26 , Qi=null , Content=null
+Register F27 , Qi=null , Content=null
+Register F28 , Qi=null , Content=null
+Register F29 , Qi=null , Content=null
+Register F30 , Qi=null , Content=null
+Register F31 , Qi=null , Content=null
+_____________
+Cycle 13 Finished
+__________________________________________________-
+Current cycle is : 14
+No Instruction is writing in this Cycle
+add Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+mul Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag mul1 , busy : true , operation : mul , Vj : 15 , Vk :6 , Qj : null , Qk :null , A : null , Remaining cycles : 4
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+load Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+store Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+Register file :
+Register F0 , Qi=null , Content=null
+Register F1 , Qi=null , Content=null
+Register F2 , Qi=null , Content=null
+Register F3 , Qi=null , Content=null
+Register F4 , Qi=null , Content=null
+Register F5 , Qi=null , Content=null
+Register F6 , Qi=null , Content=null
+Register F7 , Qi=null , Content=null
+Register F8 , Qi=null , Content=null
+Register F9 , Qi=null , Content=null
+Register F10 , Qi=mul1 , Content=null
+Register F11 , Qi=null , Content=null
+Register F12 , Qi=null , Content=null
+Register F13 , Qi=null , Content=null
+Register F14 , Qi=null , Content=null
+Register F15 , Qi=null , Content=null
+Register F16 , Qi=null , Content=null
+Register F17 , Qi=null , Content=null
+Register F18 , Qi=null , Content=null
+Register F19 , Qi=null , Content=null
+Register F20 , Qi=null , Content=null
+Register F21 , Qi=null , Content=null
+Register F22 , Qi=null , Content=null
+Register F23 , Qi=null , Content=null
+Register F24 , Qi=null , Content=null
+Register F25 , Qi=null , Content=null
+Register F26 , Qi=null , Content=null
+Register F27 , Qi=null , Content=null
+Register F28 , Qi=null , Content=null
+Register F29 , Qi=null , Content=null
+Register F30 , Qi=null , Content=null
+Register F31 , Qi=null , Content=null
+_____________
+Cycle 14 Finished
+__________________________________________________-
+Current cycle is : 15
+No Instruction is writing in this Cycle
+add Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+mul Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag mul1 , busy : true , operation : mul , Vj : 15 , Vk :6 , Qj : null , Qk :null , A : null , Remaining cycles : 3
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+load Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+store Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+Register file :
+Register F0 , Qi=null , Content=null
+Register F1 , Qi=null , Content=null
+Register F2 , Qi=null , Content=null
+Register F3 , Qi=null , Content=null
+Register F4 , Qi=null , Content=null
+Register F5 , Qi=null , Content=null
+Register F6 , Qi=null , Content=null
+Register F7 , Qi=null , Content=null
+Register F8 , Qi=null , Content=null
+Register F9 , Qi=null , Content=null
+Register F10 , Qi=mul1 , Content=null
+Register F11 , Qi=null , Content=null
+Register F12 , Qi=null , Content=null
+Register F13 , Qi=null , Content=null
+Register F14 , Qi=null , Content=null
+Register F15 , Qi=null , Content=null
+Register F16 , Qi=null , Content=null
+Register F17 , Qi=null , Content=null
+Register F18 , Qi=null , Content=null
+Register F19 , Qi=null , Content=null
+Register F20 , Qi=null , Content=null
+Register F21 , Qi=null , Content=null
+Register F22 , Qi=null , Content=null
+Register F23 , Qi=null , Content=null
+Register F24 , Qi=null , Content=null
+Register F25 , Qi=null , Content=null
+Register F26 , Qi=null , Content=null
+Register F27 , Qi=null , Content=null
+Register F28 , Qi=null , Content=null
+Register F29 , Qi=null , Content=null
+Register F30 , Qi=null , Content=null
+Register F31 , Qi=null , Content=null
+_____________
+Cycle 15 Finished
+__________________________________________________-
+Current cycle is : 16
+No Instruction is writing in this Cycle
+add Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+mul Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag mul1 , busy : true , operation : mul , Vj : 15 , Vk :6 , Qj : null , Qk :null , A : null , Remaining cycles : 2
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+load Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+store Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+Register file :
+Register F0 , Qi=null , Content=null
+Register F1 , Qi=null , Content=null
+Register F2 , Qi=null , Content=null
+Register F3 , Qi=null , Content=null
+Register F4 , Qi=null , Content=null
+Register F5 , Qi=null , Content=null
+Register F6 , Qi=null , Content=null
+Register F7 , Qi=null , Content=null
+Register F8 , Qi=null , Content=null
+Register F9 , Qi=null , Content=null
+Register F10 , Qi=mul1 , Content=null
+Register F11 , Qi=null , Content=null
+Register F12 , Qi=null , Content=null
+Register F13 , Qi=null , Content=null
+Register F14 , Qi=null , Content=null
+Register F15 , Qi=null , Content=null
+Register F16 , Qi=null , Content=null
+Register F17 , Qi=null , Content=null
+Register F18 , Qi=null , Content=null
+Register F19 , Qi=null , Content=null
+Register F20 , Qi=null , Content=null
+Register F21 , Qi=null , Content=null
+Register F22 , Qi=null , Content=null
+Register F23 , Qi=null , Content=null
+Register F24 , Qi=null , Content=null
+Register F25 , Qi=null , Content=null
+Register F26 , Qi=null , Content=null
+Register F27 , Qi=null , Content=null
+Register F28 , Qi=null , Content=null
+Register F29 , Qi=null , Content=null
+Register F30 , Qi=null , Content=null
+Register F31 , Qi=null , Content=null
+_____________
+Cycle 16 Finished
+__________________________________________________-
+Current cycle is : 17
+No Instruction is writing in this Cycle
+add Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null1 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null2 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null3 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag null4 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+___________________
+mul Reservation System : 
+Tag null0 , busy : false , operation : null , Vj : null , Vk :null , Qj : null , Qk :null , A : null , Remaining cycles : 0
+Tag mul1 , busy : true , operation : mul , Vj : 15 , Vk :6 , Qj : null , Qk :null , A : null , Remaining cycles : 1
+Tag nu
