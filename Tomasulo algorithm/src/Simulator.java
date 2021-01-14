@@ -270,7 +270,7 @@ public class Simulator {
 				break;
 			}
 		}
-		
+		pw.flush();
 	}
 
 }
